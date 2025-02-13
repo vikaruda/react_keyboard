@@ -18,9 +18,8 @@ export const App: React.FC = () => {
   return (
     <div className="App">
       <p className="App__message">
-        {' '}
         {key !== ''
-          ? `The last pressed key is ${key} `
+          ? `The last pressed key is [${key}]`
           : `Nothing was pressed yet`}
       </p>
     </div>
